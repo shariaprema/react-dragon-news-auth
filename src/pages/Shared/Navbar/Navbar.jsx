@@ -34,8 +34,8 @@ const Navbar = () => {
                         <img src={userDefaultPic} />
                     </div>
                 </label>
-                <Link>
-                    <button className="btn">Login</button>
+                <Link to='/login'>
+                    <button className=" btn  py-0 bg-slate-400">Login</button>
                 </Link>
             </div>
         </div>
